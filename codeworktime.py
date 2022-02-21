@@ -32,9 +32,9 @@ def worktimeend():
         else:
             name_s = 'second'
         if total_m != 1:
-            name_m = 'seconds'
+            name_m = 'minutes'
         else:
-            name_m = 'second'
+            name_m = 'minute'
     if total_m == 0:
         print(firstwords, '%.0f' % total_s, name_s)
     else:
