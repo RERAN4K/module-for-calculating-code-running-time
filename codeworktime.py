@@ -19,7 +19,7 @@ def worktimeend():
             name_s = 'секунд'
         if 1 < total_s % 10 < 5 and total_s < 5 or total_s > 19:
             name_s = 'секунды'
-        if total_m % 10 > 5 or total_m % 10 == 0 and total_m > 2 or total_m < 19:
+        if total_m % 10 > 4 or total_m % 10 == 0 and total_m > 4 or total_m < 19:
             name_m = 'минут'
         if 1 < total_m % 10 < 5 and total_m < 5 or total_m > 19:
             name_m = 'минуты'
